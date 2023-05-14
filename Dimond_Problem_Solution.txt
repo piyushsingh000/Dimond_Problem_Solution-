@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    C obj = new C();
+	    obj.name();
+	}
+}
+interface A{
+    
+    public static void name(){
+        System.out.println("Hello piyush ");
+    }
+}
+interface B{
+
+    public static void name(){
+        System.out.println("Hello Mahesh ");
+    }
+}
+class C implements A,B{
+ public static void name(){
+     System.out.println("Hello piyush Singh Rajput");
+ }
+}
+
